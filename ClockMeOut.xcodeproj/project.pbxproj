@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01195E5A2ADDFE17004263F1 /* ClockMeOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01195E592ADDFE17004263F1 /* ClockMeOutApp.swift */; };
+		01195E5C2ADDFE17004263F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01195E5B2ADDFE17004263F1 /* ContentView.swift */; };
+		01195E5E2ADDFE18004263F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01195E5D2ADDFE18004263F1 /* Assets.xcassets */; };
+		01195E612ADDFE18004263F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01195E602ADDFE18004263F1 /* Preview Assets.xcassets */; };
+		01195E632ADDFE18004263F1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01195E622ADDFE18004263F1 /* Persistence.swift */; };
+		01195E662ADDFE18004263F1 /* ClockMeOut.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01195E642ADDFE18004263F1 /* ClockMeOut.xcdatamodeld */; };
+		01195E702ADDFE19004263F1 /* ClockMeOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01195E6F2ADDFE19004263F1 /* ClockMeOutTests.swift */; };
+		01195E7A2ADDFE19004263F1 /* ClockMeOutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01195E792ADDFE19004263F1 /* ClockMeOutUITests.swift */; };
+		01195E7C2ADDFE19004263F1 /* ClockMeOutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01195E7B2ADDFE19004263F1 /* ClockMeOutUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01195E6C2ADDFE19004263F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01195E4E2ADDFE17004263F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01195E552ADDFE17004263F1;
+			remoteInfo = ClockMeOut;
+		};
+		01195E762ADDFE19004263F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01195E4E2ADDFE17004263F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01195E552ADDFE17004263F1;
+			remoteInfo = ClockMeOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01195E562ADDFE17004263F1 /* ClockMeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockMeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01195E592ADDFE17004263F1 /* ClockMeOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockMeOutApp.swift; sourceTree = "<group>"; };
+		01195E5B2ADDFE17004263F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01195E5D2ADDFE18004263F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01195E602ADDFE18004263F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01195E622ADDFE18004263F1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		01195E652ADDFE18004263F1 /* ClockMeOut.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClockMeOut.xcdatamodel; sourceTree = "<group>"; };
+		01195E6B2ADDFE19004263F1 /* ClockMeOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockMeOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01195E6F2ADDFE19004263F1 /* ClockMeOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockMeOutTests.swift; sourceTree = "<group>"; };
+		01195E752ADDFE19004263F1 /* ClockMeOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockMeOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01195E792ADDFE19004263F1 /* ClockMeOutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockMeOutUITests.swift; sourceTree = "<group>"; };
+		01195E7B2ADDFE19004263F1 /* ClockMeOutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockMeOutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01195E532ADDFE17004263F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01195E682ADDFE19004263F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01195E722ADDFE19004263F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01195E4D2ADDFE17004263F1 = {
+			isa = PBXGroup;
+			children = (
+				01195E582ADDFE17004263F1 /* ClockMeOut */,
+				01195E6E2ADDFE19004263F1 /* ClockMeOutTests */,
+				01195E782ADDFE19004263F1 /* ClockMeOutUITests */,
+				01195E572ADDFE17004263F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01195E572ADDFE17004263F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01195E562ADDFE17004263F1 /* ClockMeOut.app */,
+				01195E6B2ADDFE19004263F1 /* ClockMeOutTests.xctest */,
+				01195E752ADDFE19004263F1 /* ClockMeOutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01195E582ADDFE17004263F1 /* ClockMeOut */ = {
+			isa = PBXGroup;
+			children = (
+				01195E592ADDFE17004263F1 /* ClockMeOutApp.swift */,
+				01195E5B2ADDFE17004263F1 /* ContentView.swift */,
+				01195E5D2ADDFE18004263F1 /* Assets.xcassets */,
+				01195E622ADDFE18004263F1 /* Persistence.swift */,
+				01195E642ADDFE18004263F1 /* ClockMeOut.xcdatamodeld */,
+				01195E5F2ADDFE18004263F1 /* Preview Content */,
+			);
+			path = ClockMeOut;
+			sourceTree = "<group>";
+		};
+		01195E5F2ADDFE18004263F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01195E602ADDFE18004263F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01195E6E2ADDFE19004263F1 /* ClockMeOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				01195E6F2ADDFE19004263F1 /* ClockMeOutTests.swift */,
+			);
+			path = ClockMeOutTests;
+			sourceTree = "<group>";
+		};
+		01195E782ADDFE19004263F1 /* ClockMeOutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01195E792ADDFE19004263F1 /* ClockMeOutUITests.swift */,
+				01195E7B2ADDFE19004263F1 /* ClockMeOutUITestsLaunchTests.swift */,
+			);
+			path = ClockMeOutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01195E552ADDFE17004263F1 /* ClockMeOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01195E7F2ADDFE19004263F1 /* Build configuration list for PBXNativeTarget "ClockMeOut" */;
+			buildPhases = (
+				01195E522ADDFE17004263F1 /* Sources */,
+				01195E532ADDFE17004263F1 /* Frameworks */,
+				01195E542ADDFE17004263F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockMeOut;
+			productName = ClockMeOut;
+			productReference = 01195E562ADDFE17004263F1 /* ClockMeOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01195E6A2ADDFE19004263F1 /* ClockMeOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01195E822ADDFE19004263F1 /* Build configuration list for PBXNativeTarget "ClockMeOutTests" */;
+			buildPhases = (
+				01195E672ADDFE19004263F1 /* Sources */,
+				01195E682ADDFE19004263F1 /* Frameworks */,
+				01195E692ADDFE19004263F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01195E6D2ADDFE19004263F1 /* PBXTargetDependency */,
+			);
+			name = ClockMeOutTests;
+			productName = ClockMeOutTests;
+			productReference = 01195E6B2ADDFE19004263F1 /* ClockMeOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01195E742ADDFE19004263F1 /* ClockMeOutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01195E852ADDFE19004263F1 /* Build configuration list for PBXNativeTarget "ClockMeOutUITests" */;
+			buildPhases = (
+				01195E712ADDFE19004263F1 /* Sources */,
+				01195E722ADDFE19004263F1 /* Frameworks */,
+				01195E732ADDFE19004263F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01195E772ADDFE19004263F1 /* PBXTargetDependency */,
+			);
+			name = ClockMeOutUITests;
+			productName = ClockMeOutUITests;
+			productReference = 01195E752ADDFE19004263F1 /* ClockMeOutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01195E4E2ADDFE17004263F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					01195E552ADDFE17004263F1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					01195E6A2ADDFE19004263F1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 01195E552ADDFE17004263F1;
+					};
+					01195E742ADDFE19004263F1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 01195E552ADDFE17004263F1;
+					};
+				};
+			};
+			buildConfigurationList = 01195E512ADDFE17004263F1 /* Build configuration list for PBXProject "ClockMeOut" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01195E4D2ADDFE17004263F1;
+			productRefGroup = 01195E572ADDFE17004263F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01195E552ADDFE17004263F1 /* ClockMeOut */,
+				01195E6A2ADDFE19004263F1 /* ClockMeOutTests */,
+				01195E742ADDFE19004263F1 /* ClockMeOutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01195E542ADDFE17004263F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01195E612ADDFE18004263F1 /* Preview Assets.xcassets in Resources */,
+				01195E5E2ADDFE18004263F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01195E692ADDFE19004263F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01195E732ADDFE19004263F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01195E522ADDFE17004263F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01195E632ADDFE18004263F1 /* Persistence.swift in Sources */,
+				01195E662ADDFE18004263F1 /* ClockMeOut.xcdatamodeld in Sources */,
+				01195E5C2ADDFE17004263F1 /* ContentView.swift in Sources */,
+				01195E5A2ADDFE17004263F1 /* ClockMeOutApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01195E672ADDFE19004263F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01195E702ADDFE19004263F1 /* ClockMeOutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01195E712ADDFE19004263F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01195E7C2ADDFE19004263F1 /* ClockMeOutUITestsLaunchTests.swift in Sources */,
+				01195E7A2ADDFE19004263F1 /* ClockMeOutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01195E6D2ADDFE19004263F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01195E552ADDFE17004263F1 /* ClockMeOut */;
+			targetProxy = 01195E6C2ADDFE19004263F1 /* PBXContainerItemProxy */;
+		};
+		01195E772ADDFE19004263F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01195E552ADDFE17004263F1 /* ClockMeOut */;
+			targetProxy = 01195E762ADDFE19004263F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01195E7D2ADDFE19004263F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01195E7E2ADDFE19004263F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01195E802ADDFE19004263F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClockMeOut/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.ClockMeOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01195E812ADDFE19004263F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClockMeOut/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.ClockMeOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01195E832ADDFE19004263F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.ClockMeOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockMeOut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClockMeOut";
+			};
+			name = Debug;
+		};
+		01195E842ADDFE19004263F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.ClockMeOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockMeOut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClockMeOut";
+			};
+			name = Release;
+		};
+		01195E862ADDFE19004263F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.ClockMeOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClockMeOut;
+			};
+			name = Debug;
+		};
+		01195E872ADDFE19004263F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.ClockMeOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClockMeOut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01195E512ADDFE17004263F1 /* Build configuration list for PBXProject "ClockMeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01195E7D2ADDFE19004263F1 /* Debug */,
+				01195E7E2ADDFE19004263F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01195E7F2ADDFE19004263F1 /* Build configuration list for PBXNativeTarget "ClockMeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01195E802ADDFE19004263F1 /* Debug */,
+				01195E812ADDFE19004263F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01195E822ADDFE19004263F1 /* Build configuration list for PBXNativeTarget "ClockMeOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01195E832ADDFE19004263F1 /* Debug */,
+				01195E842ADDFE19004263F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01195E852ADDFE19004263F1 /* Build configuration list for PBXNativeTarget "ClockMeOutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01195E862ADDFE19004263F1 /* Debug */,
+				01195E872ADDFE19004263F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01195E642ADDFE18004263F1 /* ClockMeOut.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01195E652ADDFE18004263F1 /* ClockMeOut.xcdatamodel */,
+			);
+			currentVersion = 01195E652ADDFE18004263F1 /* ClockMeOut.xcdatamodel */;
+			path = ClockMeOut.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01195E4E2ADDFE17004263F1 /* Project object */;
+}
