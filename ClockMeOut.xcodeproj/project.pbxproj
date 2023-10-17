@@ -16,6 +16,8 @@
 		01195E702ADDFE19004263F1 /* ClockMeOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01195E6F2ADDFE19004263F1 /* ClockMeOutTests.swift */; };
 		01195E7A2ADDFE19004263F1 /* ClockMeOutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01195E792ADDFE19004263F1 /* ClockMeOutUITests.swift */; };
 		01195E7C2ADDFE19004263F1 /* ClockMeOutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01195E7B2ADDFE19004263F1 /* ClockMeOutUITestsLaunchTests.swift */; };
+		01195E8B2ADDFFE6004263F1 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01195E8A2ADDFFE6004263F1 /* CountdownView.swift */; };
+		01195E8D2ADE04F0004263F1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01195E8C2ADE04F0004263F1 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		01195E752ADDFE19004263F1 /* ClockMeOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockMeOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01195E792ADDFE19004263F1 /* ClockMeOutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockMeOutUITests.swift; sourceTree = "<group>"; };
 		01195E7B2ADDFE19004263F1 /* ClockMeOutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockMeOutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01195E8A2ADDFFE6004263F1 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		01195E8C2ADE04F0004263F1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				01195E622ADDFE18004263F1 /* Persistence.swift */,
 				01195E642ADDFE18004263F1 /* ClockMeOut.xcdatamodeld */,
 				01195E5F2ADDFE18004263F1 /* Preview Content */,
+				01195E8A2ADDFFE6004263F1 /* CountdownView.swift */,
+				01195E8C2ADE04F0004263F1 /* TabBar.swift */,
 			);
 			path = ClockMeOut;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				01195E632ADDFE18004263F1 /* Persistence.swift in Sources */,
+				01195E8B2ADDFFE6004263F1 /* CountdownView.swift in Sources */,
 				01195E662ADDFE18004263F1 /* ClockMeOut.xcdatamodeld in Sources */,
+				01195E8D2ADE04F0004263F1 /* TabBar.swift in Sources */,
 				01195E5C2ADDFE17004263F1 /* ContentView.swift in Sources */,
 				01195E5A2ADDFE17004263F1 /* ClockMeOutApp.swift in Sources */,
 			);
